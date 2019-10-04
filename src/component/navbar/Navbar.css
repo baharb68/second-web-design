@@ -2,11 +2,10 @@
     width: 50px;
 }
 .nav-item{
-    border-top:2px solid transparent;
+    border-bottom:2px solid transparent;
     transition: all 0.4s;
 }
 .nav-item:hover{
-    /* background-color: #f4f4fb; */
     border-bottom:2px solid #fce30a;
 }
 .nav-item:hover a{

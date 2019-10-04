@@ -1,0 +1,40 @@
+#carouselExampleIndicators > .position-absolute{
+    top: 0px !important;
+    z-index: 1;
+}
+.carousel{
+    margin-bottom: 12%;
+}
+.carousel-item > div{
+    top:30%;
+    width: 470px;
+    z-index: 2;
+}
+.carousel-item > div > h2{
+    color: #fff9fb;
+    font-size: 3rem;
+}
+.carousel-item > div > p{
+    font-size: 0.7rem;
+    color: #fff9fb;
+    line-height: 20px;
+}
+.carousel-item > div >  button{
+    border: 0;
+    background-color: #fce30a !important;
+    font-size: 0.7rem;
+    padding: 10px 15px;
+    transition: all 0.4s;
+}
+.carousel-item > div >  button:hover{
+    background: linear-gradient(45deg,#2f363a,#7a8083);
+    color: #fff;
+}
+.bg-blue2{
+    background-color:#a6acba ;
+    padding: 1px;
+}
+.bg-blue3{
+    background-color:#7b8396 ;
+    padding: 1.5px;
+}
