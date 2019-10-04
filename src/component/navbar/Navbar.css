@@ -1,0 +1,23 @@
+.logo div{
+    width: 50px;
+}
+.nav-item{
+    border-top:2px solid transparent;
+    transition: all 0.4s;
+}
+.nav-item:hover{
+    /* background-color: #f4f4fb; */
+    border-bottom:2px solid #fce30a;
+}
+.nav-item:hover a{
+    color: #fce30a !important;
+}
+.nav-item a {
+    /* color: #414b54 !important; */
+    color: #cfdbf3!important;
+    font-size: 0.8rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #cfdbf3 !important;
+}

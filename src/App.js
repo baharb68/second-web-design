@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery';
+import 'bootstrap';
+import 'vazir-font/dist/font-face.css';
+import Navbar from '../src/component/navbar/Navbar'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container bg-blue">
+        <Navbar logo="نام وب سایت" />
+      </div>
     </div>
   );
 }
