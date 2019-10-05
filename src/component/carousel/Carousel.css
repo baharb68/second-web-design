@@ -25,6 +25,7 @@
     font-size: 0.7rem;
     padding: 10px 15px;
     transition: all 0.4s;
+    box-shadow: 5px 5px 10px #5a6368 ;
 }
 .carousel-item > div >  button:hover{
     background: linear-gradient(45deg,#2f363a,#7a8083);

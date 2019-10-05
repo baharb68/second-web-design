@@ -1,23 +1,23 @@
-.footer h2{
-    font-size:1.3rem;
-}
+
 .footer h3{
     font-size:1rem;
+    border-bottom: 1px solid #4a5777;
+    color:#d5dceb ;
 }
 .footerp{
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid #4a5777;
 }
 .footer p{
     font-size: 0.7rem;
     line-height: 20px;
-    color: #777777;
+    color: #c7cfe2;
 }
 .footerp div:first-child{
     width: 40px;
 }
 .footerp h4 , .footerp h5 , .contact h5, .contact h4{
     font-size: 0.8rem;
-    color: #777777;
+    color: #c7cfe2;
 }
 .follow{
     width: 30px;
@@ -42,14 +42,14 @@
 .follow img{
     width: 12px;
 }
-.bg-green{
-    background-color: #383737;
+.bg-end{
+    background-color: #323e58;
 }
-.bg-green h6{
+.bg-end h6{
     font-size: 0.7rem;
 }
 form {
-    color:#777777 ;
+    color:#c7cfe2 ;
 }
 form input , textarea{
     /* background-color: #181616!important;
@@ -61,8 +61,10 @@ form label{
 }
 form button{
     font-size: 0.8rem !important;
-    background-color:#414141 !important;
+    background-color:#fce30a !important;
+    color: #000 !important;
 }
 form button:hover{
-    background-color:#575656 !important;
+    background-color:#2f363a !important;
+    color: #fff !important;
 }

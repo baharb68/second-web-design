@@ -4,6 +4,12 @@
 .App {
   text-align: center;
 }
+.bg-gray{
+  background-color: #f6f4f5;
+}
 .bg-blue{
   background-color:rgba(76,90,119,0.7);
+}
+.bg-footer{
+  background-color: #3f4c6c;
 }

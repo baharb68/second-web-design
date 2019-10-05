@@ -1,0 +1,44 @@
+
+.bg-contact{
+    background-image: url('../img/bg-about.jpg');
+    background-size: cover;
+}
+.about div:nth-child(3){
+    right: 8%;
+    z-index: 1;
+    width: 600px;
+}
+.logo div{
+    width: 50px;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #4d4f79 !important;
+}
+.comment{
+    border-radius: 20px;
+    padding-top: 40px !important;
+    box-shadow: 0 0 15px rgb(124, 124, 124);
+}
+.comment > h2 {
+    font-size: 1rem !important;
+    color: #4d4f79;
+}
+
+.comment > h3 {
+    font-size: 0.8rem;
+    color: #bdbfd2 !important;
+}
+.comment > p , .about p{
+    font-size: 0.6rem;
+    color: #71727e;
+    line-height: 25px;
+}
+.comment > img{
+    width: 70px;
+    top: -20%;
+}
+.about button{
+    background-color:#4d4f79 ;
+    font-size: 0.7rem;
+}

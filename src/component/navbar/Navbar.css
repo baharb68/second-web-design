@@ -1,6 +1,10 @@
 .logo div{
     width: 50px;
 }
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #cfdbf3 !important;
+}
 .nav-item{
     border-bottom:2px solid transparent;
     transition: all 0.4s;
@@ -15,8 +19,4 @@
     /* color: #414b54 !important; */
     color: #cfdbf3!important;
     font-size: 0.8rem;
-}
-.navbar-brand{
-    font-size: 1.5rem;
-    color: #cfdbf3 !important;
 }
