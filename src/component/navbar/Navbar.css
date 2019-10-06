@@ -3,7 +3,7 @@
 }
 .navbar-brand{
     font-size: 1.5rem;
-    color: #cfdbf3 !important;
+    color: #fff !important;
 }
 .nav-item{
     border-bottom:2px solid transparent;
@@ -17,6 +17,6 @@
 }
 .nav-item a {
     /* color: #414b54 !important; */
-    color: #cfdbf3!important;
+    color: #fff!important;
     font-size: 0.8rem;
 }

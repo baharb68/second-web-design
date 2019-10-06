@@ -1,0 +1,36 @@
+.topservice{
+    bottom: -10%;
+    z-index:1;
+
+}
+.topitem div{
+    /* background-color: rgb(252, 252, 252) !important; */
+    background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.topitem div:hover{
+    background-color:#2a3354 !important ;
+}
+.topitem div:hover h2{
+    color: #fff;
+}
+.topitem div:hover p{
+    color: #c5c9d2;
+
+}
+.topitem img{
+    width: 40px;
+}
+.topitem h2{
+    color: #0a1b2f;
+    font-size: 1rem;
+}
+.topitem p{
+    color: #a2a2a2;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+.b-shadow{
+    box-shadow: 1px 10px 5px #bcbec9 ;
+}

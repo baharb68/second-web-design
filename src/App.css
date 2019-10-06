@@ -8,8 +8,15 @@
   background-color: #f6f4f5;
 }
 .bg-blue{
-  background-color:rgba(76,90,119,0.7);
+  background-color:rgba(76,90,119,0.2);
+  border-bottom: 2px solid rgba(195, 200, 211, 0.2);
 }
 .bg-footer{
   background-color: #3f4c6c;
+}
+.tops{
+  height:320px;
+  background-image: url("./component/img/bg-top.jpg") !important;
+  background-size: cover;
+  /* background-color: #fce30a; */
 }

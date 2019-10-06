@@ -1,4 +1,11 @@
 
+.footernav li{
+    padding: 1px !important;
+    border: none;
+}
+.footernav li:hover {
+    border: none !important;
+}
 .footer h3{
     font-size:1rem;
     border-bottom: 1px solid #4a5777;
@@ -6,6 +13,7 @@
 }
 .footerp{
     border-bottom: 1px solid #4a5777;
+    cursor: pointer;
 }
 .footer p{
     font-size: 0.7rem;
@@ -15,32 +23,30 @@
 .footerp div:first-child{
     width: 40px;
 }
-.footerp h4 , .footerp h5 , .contact h5, .contact h4{
+.footerp h4 , .footerp h5 , .contact h5 , .contact h4{
     font-size: 0.8rem;
     color: #c7cfe2;
+}
+.contact:nth-child(3) h4{
+    font-size: 0.8rem;
+    color: #fce30a !important;
 }
 .follow{
     width: 30px;
     height: 30px;
     border-radius: 2px;
 }
-.follow:first-child{
-    background-color: #3b5998;
+.follow{
+    background-color: #ffffff;
+    cursor: pointer;
 }
-.follow:nth-child(2){
-    background-color: #25cf43;
+.follow:hover img{
+    transform: scale(1.2);
 }
-.follow:nth-child(3){
-    background-color: #c73091;
-}
-.follow:nth-child(4){
-    background-color: #55acce;
-}
-.follow:nth-child(5){
-    background-color: #dd4b39;
-}
+
 .follow img{
-    width: 12px;
+    width: 13px;
+    transition: all 0.3s;
 }
 .bg-end{
     background-color: #323e58;
@@ -61,10 +67,10 @@ form label{
 }
 form button{
     font-size: 0.8rem !important;
-    background-color:#fce30a !important;
-    color: #000 !important;
+    background-color:#323e58!important;
+    color: #fff !important;
 }
 form button:hover{
-    background-color:#2f363a !important;
+    background-color:#fce30a!important;
     color: #fff !important;
 }

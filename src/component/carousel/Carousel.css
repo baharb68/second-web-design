@@ -2,9 +2,9 @@
     top: 0px !important;
     z-index: 1;
 }
-.carousel{
+/* .carousel{
     margin-bottom: 12%;
-}
+} */
 .carousel-item > div{
     top:30%;
     width: 470px;
@@ -28,7 +28,7 @@
     box-shadow: 5px 5px 10px #5a6368 ;
 }
 .carousel-item > div >  button:hover{
-    background: linear-gradient(45deg,#2f363a,#7a8083);
+    background:radial-gradient(#5c6583,#4d577a);
     color: #fff;
 }
 .bg-blue2{

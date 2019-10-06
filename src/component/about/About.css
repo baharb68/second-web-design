@@ -1,0 +1,24 @@
+.about p  , .about span{
+    font-size: 0.7rem;
+    color: #a2a2a2;
+    line-height: 20px;
+}
+.about span{
+    border-bottom:1px solid #2b376f !important;
+}
+.about h2{
+    color: #2b376f  !important;
+    font-size: 1.2rem;
+}
+.about button:hover{
+    /* background-color:#4657a1  ; */
+    background-color: #fce30a !important;
+
+}
+.about button{
+    /* background-color:#2b376f  ; */
+    background-color:#2b376f ;
+    color:#fff !important;
+    font-size: 0.7rem;
+    transition: all 0.5s;
+}

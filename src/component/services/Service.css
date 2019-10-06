@@ -1,0 +1,31 @@
+
+.serviceitem{
+    cursor: pointer;
+}
+
+.serviceitem div{
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 0 5px rgb(212, 210, 210);
+    background:radial-gradient(#757d9b,#4d577a);
+    transition: all 0.5s;
+    margin-top:20px
+    
+}
+.serviceitem:hover div{
+    background:radial-gradient(#fdeb46,#ffee00);
+    margin-top: 0px !important; 
+}
+
+.serviceitem div img{
+    opacity: 0.5;
+    width: 30px;
+    transition: all 0.5s;
+}
+.serviceitem:hover div img{
+    opacity: 1;
+}
+.serviceitem h2{
+    font-size: 0.7rem;
+    color: #fff;
+}

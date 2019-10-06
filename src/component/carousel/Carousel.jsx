@@ -43,7 +43,7 @@ export default class Carousel extends Component {
             <div className="container-fluid bg-blue position-absolute p-0">
                 <div className="bg-blue2 "></div>
                 <div className="bg-blue3 "></div>
-                <Navbar logo="نام وب سایت" />
+                <Navbar logo="آریپو" />
             </div>
           </div>
         )

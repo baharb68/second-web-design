@@ -7,19 +7,38 @@ import 'bootstrap';
 import 'vazir-font/dist/font-face.css';
 import Carousel from '../src/component/carousel/Carousel'
 import Footer from '../src/component/footer/Footer'
-import Contact from '../src/component/contactus/Contact'
+import Contact from './component/comment/Contact'
+import Service from '../src/component/services/Service'
+import Top from '../src/component/top-services/Top'
+import Product from '../src/component/products/Products'
+import Tech from '../src/component/technology/Tech'
+import Aboutus from '../src/component/about/Aboutus'
+
 
 
 function App() {
   return (
     <div className="App bg-gray">
       <div className="container-fluid px-0">
-        <Carousel title="نام وب سایت" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون " btntext="ادامه مطلب"/>
+        <Carousel title="آریپو" content="مجموعه طراحی سایت و برنامه نویسی" btntext="ادامه مطلب"/>
       </div>
-      <div className="container-fluid bg-white px-0">
+      <div className="container-fluid d-flex justify-content-center px-0">
+        <Service />
+      </div>
+      <div className="container-fluid bg-white py-5">
+        <Aboutus />
+      </div>
+      <div className="tops container-fluid d-flex justify-content-center position-relative">
+        <Top />
+      </div>
+      <Product />
+      <div className="container-fluid bg-white p-0">
         <Contact />
       </div>
-      <div className="container-fluid bg-footer mt-5 pt-5 px-0">
+      <div className="container-fluid">
+        <Tech />
+      </div>
+      <div className="container-fluid bg-footer pt-5 px-0">
         <Footer />
       </div>
 
